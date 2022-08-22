@@ -1,0 +1,254 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+
+
+
+body {
+background-image: url("download.jpg");
+width:100%;
+background-size:1400px 1000px;
+background-position:top right;
+}
+
+.main_wrapper{
+width: 1000px;
+height:auto;
+margin: auto;
+}
+
+
+
+#left{
+width: 795px;
+height:auto;
+float: left;
+
+}
+
+#right{
+width: 200px;
+height:800px;
+float: right;
+border: 5px MediumSpringGreen;
+}
+
+#right a{
+display: block;
+text-decoration: none;
+color:SkyBlue;
+padding: 8px;
+margin: 5px;
+font-size: 16px;
+font-family:Palatino,URW;
+}
+
+#right a:hover{
+color:RoyalBlue;
+font-weight: bolder;
+
+}
+
+
+.menubar{
+	width: 1000px;
+	height: 50px;
+	background:black;
+	color: white;
+}
+
+#menu{
+	padding: 0;
+	margin: 0;
+	line-height: 45px;
+	float: left;
+}
+
+#menu li {
+	list-style: none;
+	display: inline;
+}
+
+#menu a{
+	text-decoration: none;
+	color: red;
+	padding: 8px;
+	margin: 0px;
+	font-size: 14px;
+	font-family: Stencil Std, fantasy;
+}
+
+#menu a:hover {
+	color: orange;
+	font-weight: bolder;
+	text-decoration:underline;
+}
+
+#form {
+	float: right;
+	padding-right: 8px;
+	line-height: 50px;
+}
+
+.content_wrapper{
+  width: 1000px;
+  height:1200px;
+  margin: auto;
+  background:MediumSpringGreen;
+}
+
+
+#content_wrapper{
+  width: 800px;
+  float: right;
+   background:MediumSpringGreen;
+}
+
+#sidebar{
+  width: 200px;
+	height: 1200px;
+  background: Violet;
+  float: left;
+}
+
+#sidebar_title{
+	background:BlueViolet;
+	text-align: center;
+	color: black;
+	font-size: 22px;
+	font-family: Didot, serif;
+	padding: 10px;
+}
+
+#image{
+background-image: url(source.png);
+background-repeat: no-repeat;
+background-size: cover;
+border:5px solid #dedede;
+height:300px;
+}
+
+
+#sidebar_fiction{
+	background:Red;
+	color: white;
+	font-size: 20px;
+	font-family: arial;
+	padding: 10px;
+}
+
+#sidebar_nonfiction{
+	background:Red ;
+	color: white;
+	font-size: 20px;
+	font-family: arial;
+	padding: 10px;
+}
+
+#cats {
+	text-align: center;
+}
+
+#cats li {
+	list-style: none;
+	margin: 10px;
+}
+
+#cats a {
+	color: black;
+	padding: 10px;
+	text-align: center;
+	font-size: 20px;
+	text-decoration: none;
+	font-family: "Times New Roman",Times,Serif;
+}
+
+#cats a:hover {
+	color:aqua ;
+	font-weight: bolder;
+	text-decoration: underline;
+
+}
+
+
+#content_area .products_box {
+	float: left;
+	margin: 7px;;
+	width: 760px;
+	height: 210px;
+	padding: 7px;
+	border: 2px solid #333;
+	display: inline-table;
+	background:MediumSpringGreen;
+}
+
+
+#single_product {
+	text-align: center;
+	float:left;
+	width:223px;
+	height: 300px;
+	margin:7px;
+	padding: 7px;
+border: 1px solid #333;}
+
+#single_product li {
+			list-style: none;
+			display: inline-grid;;
+		}
+
+#shopping_cart {
+width: 800px;
+height:40px;
+float: right;
+colour:White;
+background: DeepSkyBlue;
+
+}
+
+
+#desc_box {
+	float: left;
+	width: 700px;
+	height: 100px;
+	margin: 13px;
+	padding: 10px;
+	border: 1px solid #333;
+}
+
+
+
+#footer{
+  width: 1000px;
+  height: 50px;
+  background: LightGray;
+  clear: both;
+
+}
